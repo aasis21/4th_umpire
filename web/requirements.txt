@@ -1,5 +1,6 @@
 django
 django-bootstrap-form
 numpy
-sklearn
+pandas
+scikit-learn
 

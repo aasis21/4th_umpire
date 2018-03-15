@@ -30,7 +30,7 @@ def about(request):
         return render(request, 'fourth_umpire/about.html', {})
 
 def contact(request):
-    return render(request, 'fourth_umpire/contact.html', {})
+    return HttpResponseRedirect('https://github.com/aasis21/4th_umpire')
 
 
 

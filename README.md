@@ -42,3 +42,6 @@ The web-app will be available at `127.0.0.1:8000` on your browser.
 ## About
 This web-app is created for Microsoft Code Fun Do competition.
 
+- In this project we have use various algorithms like Naive Bayes, SVM, Random Forest  in training our various machine learning models. And on different stages of training and testng, final model works and best fit with random forest algorithm. 
+
+- We have used dataset from Kaggle and then modified the csv files and make various csv files in order to train and for working of our different models.In addition, We have use varoius python libraries such as scikit learn, numpy, pandas,etc in order to code our models. 

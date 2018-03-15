@@ -2,7 +2,7 @@
 
 # Importing the libraries
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
@@ -59,7 +59,7 @@ cm = confusion_matrix(y_test, y_pred)
 
 
 from sklearn.externals import joblib
-joblib.dump(regressor, 'pre_pred.pkl') 
+joblib.dump(regressor, 'pre_pred.pkl')
 
 import pickle
 with open('pre_hot.pkl', 'wb') as pickle_file:
@@ -70,4 +70,3 @@ with open('pre_hot.pkl', 'wb') as pickle_file:
 
 
 # Visualising the Random Forest Regression results (higher resolution)
-

@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 # Importing the dataset
 dataset = pd.read_csv('data/2nd_inning.csv')

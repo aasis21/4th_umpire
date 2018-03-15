@@ -2,7 +2,7 @@
 import sys
 # Importing the libraries
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 # Importing the dataset
 dataset = pd.read_csv('data/1st_inning.csv')
@@ -38,7 +38,7 @@ from sklearn import metrics
 print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
 
 from sklearn.externals import joblib
-joblib.dump(regressor, '1st_inn_pred.pkl') 
+joblib.dump(regressor, '1st_inn_pred.pkl')
 
 import pickle
 with open('1st_inn_hot.pkl', 'wb') as pickle_file:

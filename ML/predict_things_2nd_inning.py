@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 # Importing the dataset
 dataset = pd.read_csv('data/2nd_inning.csv')
@@ -33,7 +33,7 @@ regressor_bat.fit(X_train_bat, y_train_bat)
 y_pred_bat = regressor_bat.predict(X_test_bat)
 
 from sklearn.externals import joblib
-joblib.dump(regressor_bat, '2st_inn_bat_win_wicket.pkl') 
+joblib.dump(regressor_bat, '2st_inn_bat_win_wicket.pkl')
 
 import pickle
 with open('2st_inn_bat_win_hot.pkl', 'wb') as pickle_file:
@@ -79,7 +79,7 @@ print(np.sqrt(metrics.mean_squared_error(y_test_bowl, y_pred_bowl)))
 
 
 from sklearn.externals import joblib
-joblib.dump(regressor_bowl, '2st_inn_bowl_win_run.pkl') 
+joblib.dump(regressor_bowl, '2st_inn_bowl_win_run.pkl')
 
 import pickle
 with open('2st_inn_bowl_win_hot.pkl', 'wb') as pickle_file:
@@ -122,13 +122,8 @@ test = enc.transform([[1,3,23,34,2,124,1]]).toarray()
 ans = regressor.predict(test)
 
 from sklearn.externals import joblib
-joblib.dump(regressor, '2st_inn_end.pkl') 
+joblib.dump(regressor, '2st_inn_end.pkl')
 
 import pickle
 with open('2st_inn_end_hot.pkl', 'wb') as pickle_file:
     pickle.dump(enc, pickle_file)
-
-
-
-
-

@@ -6,7 +6,7 @@ and prediction of winner, match concluding over during the 2nd inning of the mat
 
 
 ## Webpage
-Live project is available [here](https://4thUmpire.pythonanywhere.com).
+Live project is available [here](https://fourth-umpire.herokuapp.com).
 
 ## Demo video
 Demo video for Code Fun Do is available [here](https://drive.google.com/file/d/1rfpCELnRjhXUDwCxi9sBjpFgTvz4md0y/view)

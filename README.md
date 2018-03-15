@@ -8,6 +8,9 @@ and prediction of winner, match concluding over during the 2nd inning of the mat
 ## Webpage
 Live project is available [here](https://4thUmpire.pythonanywhere.com).
 
+## Demo video
+Demo video for Code Fun Do is available [here](https://drive.google.com/file/d/1rfpCELnRjhXUDwCxi9sBjpFgTvz4md0y/view)
+
 ## Local Setup
 Create and activate a virtualenv:
 

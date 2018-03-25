@@ -8,8 +8,6 @@ and prediction of winner, match concluding over during the 2nd inning of the mat
 ## Webpage
 Live project is available [here](https://fourth-umpire.herokuapp.com).
 
-## Demo video
-Demo video for Code Fun Do is available [here](https://drive.google.com/file/d/1rfpCELnRjhXUDwCxi9sBjpFgTvz4md0y/view)
 
 ## Local Setup
 Create and activate a virtualenv:
@@ -22,12 +20,12 @@ source bin/activate
 Clone the repository on your local environment <br>
 
 ```bash
-git clone https://github.com/aasis21/4thUmpire.git `
+git clone https://github.com/aasis21/4th_umpire.git `
 ```
 
 Navigate to the folder <br>
 ```bash 
-cd 4thUmpire/web
+cd 4th_umpire/web
 ```
 
 Install the required dependencies <br>
@@ -45,6 +43,6 @@ The web-app will be available at `127.0.0.1:8000` on your browser.
 ## About
 This web-app is created for Microsoft Code Fun Do competition.
 
-- In this project we have use various algorithms like Naive Bayes, SVM, Random Forest  in training our various machine learning models. And on different stages of training and testng, final model works and best fit with random forest algorithm. 
+- In this project we have tried various algorithms like Naive Bayes, SVM, Random Forest  for training our various machine learning models. And finally,we have used random forest algorithm. 
 
 - We have used dataset from Kaggle and then modified the csv files and make various csv files in order to train and for working of our different models.In addition, We have use varoius python libraries such as scikit learn, numpy, pandas,etc in order to code our models. 
